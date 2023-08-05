@@ -1,0 +1,9 @@
+.profile__personal-info {
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width: 1023px){
+    .profile__personal-info {
+        margin-left: 30px;
+    }
+}

@@ -1,0 +1,11 @@
+.hover-animation{
+    background-color: transparent;
+    background-position: 50%;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    transition: opacity .2s linear;
+}
+.hover-animation:hover{
+    opacity: 0.6;
+}

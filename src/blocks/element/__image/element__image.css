@@ -1,0 +1,11 @@
+.element__image{
+ width: 282px;
+ height: 282px;
+ object-fit: cover;
+ border-top-right-radius: 10px;
+ border-top-left-radius: 10px;
+ display: block;
+ cursor: pointer;
+ background: black;
+ text-decoration-color: white;
+}
