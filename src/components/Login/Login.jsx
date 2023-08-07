@@ -37,7 +37,6 @@ return (
             value={password}
             placeholder="Введите Ваш пароль"
             minLength={3}
-            maxLength={10}
             onChange={handleChangePassword}
             required
         />

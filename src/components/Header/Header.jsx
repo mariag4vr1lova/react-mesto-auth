@@ -27,10 +27,10 @@ function Header({loggedIn, email, logOut}) {
               </Link>
             }
           />
-          <Route
+          {/* <Route
             path="*"
             element={<Navigate to={loggedIn ? "/" : "/sign-in"} />}
-          />
+          /> */}
         </Routes>
         {loggedIn && (
           <button className="header__link header__button" onClick={logOut}>

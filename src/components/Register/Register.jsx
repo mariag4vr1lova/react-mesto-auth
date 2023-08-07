@@ -1,4 +1,4 @@
-import React,{ useState }  from "react";
+import { useState }  from "react";
 import { Link } from "react-router-dom";
 
 function Register(props) {
@@ -38,7 +38,6 @@ return (
             value={password}
             placeholder="Придумайте пароль"
             minLength={3}
-            maxLength={10}
             onChange={handleChangePassword}
             required
             />
